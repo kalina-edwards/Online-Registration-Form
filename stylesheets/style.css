@@ -1,9 +1,7 @@
 body {
 	background-color: white;
-	margin: 0 5px;
+	margin: 0 5px; 
 }
-
-
 
 fieldset {
 	border: none;
@@ -13,6 +11,10 @@ fieldset {
 label {
   display: block;
   margin: 8px 0;
+}
+
+input {
+	border: solid 1px green;
 }
 
 
