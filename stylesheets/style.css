@@ -1,6 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
 body {
-	background-color: white;
-	margin: 0 5px; 
+	background-color: white; 
+	font-family: 'Merriweather', serif;
+	width: 400px;
+	max-width: 100%
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 0;
+	color: #FEF6EB;
+	text-align:center;
+}
+
+h2 {
+	margin: 8px 0;
+}
+
+header h1 {
+	background-color: #525564;
+	padding: 20px;
+	color: #FEF6EB;
+}
+
+header h2,
+header p{
+	text-align: center;
+}
+
+header p {
+	padding: 0 10px;
+	margin: 8px 0;
+}
+
+hr {
+	border: solid 2px black;
+	/*padding-left:15px;
+	padding-right: 15px;*/
+	width: 100%;
+}
+
+legend, h2 {
+	color: #c25b56;
+	text-align: 
+}
+
+p,
+label {
+	color: #74828f;
 }
 
 fieldset {
@@ -13,13 +61,32 @@ label {
   margin: 8px 0;
 }
 
-input {
-	border: solid 1px green;
+label.light {
+	display: inline;
 }
 
+button{
+	display: block;
+	margin: 10px;
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	padding: 2px;
+}
+input,
+textarea {
+	border: none;
+	background-color: rgba(254,246,235, .50);
+	height: auto;
+}
 
+input[type="checkbox"] {
+	margin: 0 4px 8px 0;
+}
 
+@media only screen and (min-width: 760px) {
 
+}
 
 
 
