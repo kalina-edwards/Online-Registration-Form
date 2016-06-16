@@ -3,8 +3,9 @@
 body {
 	background-color: white; 
 	font-family: 'Merriweather', serif;
-	width: 400px;
-	max-width: 100%
+	width: 420px;
+	max-width: 100%;
+    overflow-x: hidden;
 	margin: 0 auto;
 }
 
@@ -16,6 +17,8 @@ h1 {
 
 h2 {
 	margin: 8px 0;
+	color: #c25b56;
+	text-align: 
 }
 
 header h1 {
@@ -41,10 +44,6 @@ hr {
 	width: 100%;
 }
 
-legend, h2 {
-	color: #c25b56;
-	text-align: 
-}
 
 p,
 label {
@@ -53,16 +52,23 @@ label {
 
 fieldset {
 	border: none;
+	padding: 0 10px;
 }
 
+input::-webkit-input-placeholder {
+    direction: rtl;
+    text-align: right;
+    font-style: italic;
+    padding-right: 4px;
+}
 
 label {
   display: block;
-  margin: 8px 0;
 }
 
 label.light {
 	display: inline;
+	margin-bottom: 50px;
 }
 
 button{
@@ -73,20 +79,41 @@ button{
 	border-radius: 5px;
 	padding: 2px;
 }
-input,
+
 textarea {
 	border: none;
-	background-color: rgba(254,246,235, .50);
-	height: auto;
+	height: 75px;
 }
 
-input[type="checkbox"] {
-	margin: 0 4px 8px 0;
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+	width: 90%;
+	margin: 0 auto;
+	background-color: rgb(254,246,235);
 }
 
-@media only screen and (min-width: 760px) {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+	height: 30px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-bottom: 20px;
+}
+
+button {
 
 }
+
+/*@media only screen and (min-width: 760px) {
+
+}*/
 
 
 
