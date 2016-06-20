@@ -160,6 +160,7 @@ button {
 	input[type="email"],
 	input[type="tel"],
 	select[id="state"] {
+
 		flex-direction: row;
 		justify-content: space-between;
 	}
