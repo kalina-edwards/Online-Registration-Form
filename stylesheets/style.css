@@ -5,17 +5,16 @@
 }
 
 body {
-	background-color: white; 
+/*	background-color: rgba(0,0,0, .10); 
+*/	background-image: url('http://img0.mxstatic.com/wallpapers/bd2435ecbb595d947f17f3c0d809d17e_large.jpeg');
 	font-family: 'Merriweather', serif;
 	width: 480px;
 	max-width: 100%;
 	margin: 0 auto;
-/*	border: solid 1px black;
-*/}
+}
 
 form {
-/*	background-color: yellow;
-*/	width: 100%;
+	width: 100%;
 }
 
 h1 {
@@ -56,25 +55,22 @@ p {
 }
 
 hr{
-	border: solid 2px black;
+	border: solid 2px white;
 	width: 95%;
 }
 
 .newhr {
-	border: solid 1px black;
+	border: solid 1px white;
 	margin-top: 20px;
 }
 
-p,
-label {
-	color: #74828f;
+p, label {
+	color: white;
 }
 
 fieldset {
 	border: none;
-	margin: 0 auto;
-/*	padding: 5px;
-*/}
+}
 
 label {
   display: block;
